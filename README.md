@@ -5,9 +5,9 @@
 
 
 
-### Live site Link:
-### Client side code Link:
-### Server-side code Link:
+### Live site Link:https://foodota-online-food-delivery.web.app/
+### Client side code Link:https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-Shahrukhsadikin
+### Server-side code Link:https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-Shahrukhsadikin
 
 
 * Foodota Website banner shows most trending restaurant list form where users can easily order the most wanted items on the fly.
