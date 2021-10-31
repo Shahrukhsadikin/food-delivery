@@ -4,12 +4,12 @@ const ClientOrder = () => {
     const [offers,setOffers] =useState([]);
 
     useEffect (()=>{
-        fetch('http://localhost:5000/offers')
+        fetch('https://wicked-fangs-92454.herokuapp.com/offers')
         .then (res =>res.json())
         .then (data =>setOffers(data))
     })
     const heandledelete =id =>{
-        const url=(`http://localhost:5000/offers/${id}`)
+        const url=(`https://wicked-fangs-92454.herokuapp.com/offers/${id}`)
             fetch(url,{
                 method:'DELETE'
             })

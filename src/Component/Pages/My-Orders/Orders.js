@@ -5,7 +5,7 @@ const Orders = () => {
     const { offersId } = useParams();
     const [offers,setOffers]=useState({})
     useEffect (()=>{
-        fetch(`http://localhost:5000/offers/${offersId}`)
+        fetch(`https://wicked-fangs-92454.herokuapp.com/offers/${offersId}`)
         .then(res=>res.json())
         .then(data =>setOffers(data))
     },[])
