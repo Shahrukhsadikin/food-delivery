@@ -1,0 +1,11 @@
+.footer-body img{
+    height: 150px;
+    width: 150px;
+}
+.footer-body{
+    padding: 90px 0 50px;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(202, 199, 199);
+    margin: auto;
+}
